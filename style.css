@@ -1,0 +1,54 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+body {
+    
+    background-color: #d4d3dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+ }
+
+ .mobile-container {
+    background-color: aliceblue;
+    width: 400px;
+ }
+
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+ }
+ 
+ header input {
+    background-color: #d4d3dd;
+     border: none;
+     border-radius: 3px;
+     padding: 0.5rem 1rem;
+ }
+
+ header button {
+    background-color: transparent;
+    border: none;
+    color: #d4d3dd;
+    font-size: 1.5rem;
+    margin-left: 10px;
+ }
+
+ .fav-container {
+    display: flex; 
+    padding: 1rem;
+ }
+ .fav-meals{
+    
+ }
