@@ -17,7 +17,7 @@ async function getMealById(id){
 async function getMealBySearch(term){
     const meals = await fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=" + term);
 }
-addMeal(mealData, random = false){
+function addMeal(mealData, random = false){
   const meal = document.createElement('div');
   meal.classList.add('meal');
 
